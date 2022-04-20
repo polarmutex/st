@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "MonoLisa:pixelsize=15:antialias=true:autohint=true";
+static char *font =
+    "MonoLisa Nerd Font:pixelsize=15:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {"FiraCode Nerd Font Mono:style=Retina,Regularsize=10"};
